@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "limey-mc1215",
+  "version": "${version}",
+  "name": "Limey for 1.21.2+ built against 1.21.11",
+  "description": "Libre simulation anticheat designed for 1.21 with 1.8-1.21 support, powered by PacketEvents 2.0.",
+  "authors": [
+    "Limey"
+  ],
+  "license": "GPLv3",
+  "environment": "server",
+  "entrypoints": {
+    "limeyMainLoad": [
+      "ac.limey.limeyac.platform.fabric.mc1216.LimeyFabric1212LoaderPlugin"
+    ]
+  },
+  "accessWidener": "limey.accesswidener",
+  "depends": {
+    "minecraft": ">=1.21.2 \u003c26",
+    "fabric-lifecycle-events-v1": "*"
+  }
+}
